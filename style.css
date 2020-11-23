@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* body {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #24252A;
+
+} */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li , a {
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-emphasis: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+ .nav_links {
+     list-style: none;
+ }
+
+ .nav_links li {
+     display: inline-block;
+     padding: 0px 20px;
+ }
+
+ .nav_links li a {
+     transition: all 0.3s ease 0s;
+
+ }
+ 
+ .nav_links li a:hover {
+     color: #0088a9;
+ }
+
+ .workout {
+     position: relative;
+     width: 40%;
+     left: 55%;
+ }
+
+ .text {
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    padding-top: 10%;
+    
+ }
+
+ .block {
+     display: flex;
+
+ }
+
+ /* .work {
+     position: relative;
+     width: 40%;
+ }
+.images {
+    display: flexbox;
+    padding: 0 30%; */
+}
+/* nav {
+    position: fixed;
+    top: 5%;
+    left: 65%;
+    width: 100%;
+
+} */
+
+
